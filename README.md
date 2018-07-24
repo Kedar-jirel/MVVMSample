@@ -71,17 +71,5 @@ Note:- 	ViewModel is extends by BaseObservable so that you can get your xml view
 				You can also use Observable , Event Bus , Live Data for communication with the view and model.
 				
 																			
-
-///Run the Project
-
-1. Download or add the github repo
-2. Launch the Login Activity---
-		when you add anything in email field of edittext it is automatically show to textview that is below the password
-		
-		 notifyPropertyChanged(BR.dataEmail);   
-		 // This is used to have instant change in the text view with respect to edittext value
-		 
-You can make change accordingly to your business logic	 
-			
         
 
