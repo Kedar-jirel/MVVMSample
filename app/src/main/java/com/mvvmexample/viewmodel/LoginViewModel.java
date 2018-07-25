@@ -10,6 +10,8 @@ import android.widget.Toast;
 import com.mvvmexample.BR;
 import com.mvvmexample.model.LoginModel;
 
+import java.util.ArrayList;
+
 /**
  * Created by kedar on 19/03/2018.
  */

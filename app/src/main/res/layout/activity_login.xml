@@ -31,8 +31,7 @@
             android:layout_margin="10dp"
             android:hint="Password"
             android:imeOptions="actionDone"
-            android:inputType="textPassword"
-            android:text="@={loginData.dataPassword}" />
+            android:inputType="textPassword" />
         <!--  Here @={}  is used to get dynamically value from edittext-->
 
 
