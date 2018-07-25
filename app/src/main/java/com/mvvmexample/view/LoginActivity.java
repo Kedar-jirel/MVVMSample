@@ -20,7 +20,7 @@ import java.util.List;
 public class LoginActivity extends Activity {
 
 
-    Kedar<LoginModel>  loginModels = new Kedar<>();
+
 
     private Activity activity;
     private ActivityLoginBinding binding;
@@ -32,8 +32,6 @@ public class LoginActivity extends Activity {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_login);
 
         activity = this;
-        loginModels.add(new LoginModel("kedar","jirel"));
-        Log.e("ffsafdsa",loginModels.get(0).getEmail());
 
         LoginViewModel loginViewModel = new LoginViewModel(activity);
         binding.setLoginData(loginViewModel);
